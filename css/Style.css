@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Header Section */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 80%;
+    margin: auto;
+} */
+
+/* .header{
+    position: fixed;
+}  */
+/* .header nav{
+    float: left;
+}  */
+.clear{
+    clear: both;
+}
+.header .container .logo img{
+    width: 20px;
+    height: 20px;
+
+}
+.title {
+    font-family: 'Anton', sans-serif;
+}
+
+.header .container ,nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar-brand img{
+    font-weight:bolder;
+    width: 20px;
+    padding-top: 0 7px;
+}
+.header .nav li{
+    display: inline-block;
+    
+}
+
+.collapse .nav-link{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    
+} 
+.collapse .nav-link:hover{
+    color: blue;
+}
+.btn-primary{
+    border-radius: 50px;
+}
+
+/* Home Section */
+
+.home{
+    padding: 80px;
+    margin-top: 10px;
+    background-image: url(/imgs/shape-a.png);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.hover-opacity:hover{
+    color: blue;
+}
+.corona{
+    font-size: 120px;
+}
+.covid{
+    font-size: 70px;
+    font-weight: normal;
+}
+.virus{
+    font-size: 50px;
+}
+
+.img-header{
+    max-width: 100%;
+}
+
+.btn-how{
+    border-radius: 50px;
+    background-color: rgb(8, 8, 235);
+    color: white;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.about-to-covid{
+    padding-left: 20px;
+    margin: 30px;
+}
+
+.tab tr td{
+    padding: 5px 20px;
+    text-align: center;
+    margin: 50px 0;
+    font-size: large;
+}
+
+
+
+/* button to top */
+.btn-scroll{
+    position: fixed;
+    bottom: 50px;
+    right: -30px;
+    font-size: 20px;
+    padding: 5px;
+    border-color: white;
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.btn-scroll.show{
+    right: 30px;
+}
+/* About Corona Section */
+.about{
+    padding: 80px;
+    margin-top: 10px;
+}
+.disease{
+    color: blue;
+}
+
+.what{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.what p{
+    color: blue;
+    
+}
+.th{
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 5px;
+}
+.tb{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 3px;
+
+}
+.spread{
+    max-width: 100%;
+    right: auto;
+}
+
+h4{
+    color: blue;
+}
+.purple{
+    max-width: 100;
+    height: 5px;
+    color: purple;
+    
+}
+.corsp{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px;
+}
+.btn3{
+    text-align: center;
+    padding: 100px;
+}
+.fa-circle-question{
+    padding: 0 10px;
+}
+    /* Symptoms Section */
+.symptoms{
+        padding: 80px;
+        margin-top: 20px;
+}
+
+.are{
+    text-align: center;
+    padding: 50px;
+}
+.stay{
+    color: blue;
+
+}
+.stay2{
+    max-width: 60%;
+    padding: 50px;
+    
+}
+.fa-exclamation-triangle{
+    color: blue;
+}
+.find{
+    right: auto;
+
+}
+
+.symptom img{
+    border-radius: 50%;
+    height: 100px;
+    
+}
+
+/* Prevention Section */
+
+.prevention{
+    background-color: aliceblue;
+}
+
+.advice img{
+    border-radius: 50%;
+
+}
+.protect{
+    text-align: center;
+    padding: 100px;
+}
+.check1{
+    padding: 50px;
+    text-align: center;
+    right: auto;
+    
+}
+.check2{
+    padding: 50px;
+}
+
+.take{
+    max-width: 100%;
+}
+.steps{
+    height: 70%;
+    max-width: 100%;
+}
+.fa-circle-check{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.follow{
+    text-align: center;
+    background-color: rgb(207, 214, 221);
+    padding: 100px;
+}
+.hand img{
+    border-radius: 50%;
+    height: 100px;
+    
+}
+.hand{
+    text-align: center;
+}
+.hand2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Treatment Section */
+.treatment{
+    padding: 100px;
+    margin-top: 250px;
+}
+
+.treat-bg{
+    background-image: url(../imgs/shape-a.png);
+    background-repeat: no-repeat;
+    background-color:dodgerblue;
+    
+}
+.self{
+    background-color: blue;
+    color: white;
+    text-align: start;
+
+}
+.be{
+    color: white;
+    
+}
+
+.protect {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.dont{
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: white;
+}
+.dont2{
+    border-radius: 50%;
+    border: 2px solid green;
+    background-color: white;
+}
+
+/* FAQ Section */
+.faq{
+    text-align: center;
+}
+
+.faq1{
+    border: 1px solid black;
+    padding: 10px 0px;
+    text-align: start;
+}
+.faq1:hover{
+    cursor: pointer;
+}
+.accordion{
+    
+    max-width: 100%;
+} 
+.accordion .content-box{
+    position: relative;
+
+}
+.accordion .content-box .label{
+    position: relative;
+    padding: 20px;
+    background-color:aliceblue;
+    color: black;
+    cursor: pointer;
+
+}
+.accordion .content-box .label::before{
+    content: '\002B';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+.accordion .content-box.active .label::before{
+    content: '\2212';
+}
+.accordion .content-box .content{
+    position: relative;
+    background: white;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+.accordion .content-box.active .content{
+    height: 150px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+.recent{
+    background-color: lightgray;
+    /* padding: 50px; */
+    margin-top: 100px;
+}    
+.recent2{
+    text-align: center;
+    padding: 10px;
+    margin: 0 2px;
+}    
+
+
+.card img{
+    border-radius: 2px;
+    padding: 0px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+
+
+/* News Section */
+
+.buttons{
+    text-align: center;
+    border-radius: 0%;
+}
+.news{
+    background-image: url(/imgs/shape-a.png);
+    background-color: lightslategray;
+}
+.news-color{
+    color: white;
+}
+.news-color2{
+    color: white;
+}
+.quick{
+    color: white;
+    text-align: center;
+    
+}
+.hr{
+    color: white;
+}
+.copy2{
+    color: white;
+}
+/* Do & Don't Section */
+.do1{
+    margin: 200px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
