@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/all.min.css">
   <title>frontEnd Project</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="/bootstrap-5.2.0-beta1-dist/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="./css/Style.css">
 </head>
 
@@ -111,7 +111,7 @@
           <p>Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.</p>
           <p>Standard recommendations to prevent infection spread include regular hand washing, covering mouth and nose when coughing and sneezing, throughly cooking meat and eggs. Avoid close contact with anyone showing symptoms of respiratory illness such as coughing and sneezing.</p>
         </div>
-        <div class="col-6">
+        <div class="col-6 justify-content-between align-items-center" >
           <div class="what">
             <h3 class="col-12 th">What you need to know</h3>
             <p class="col-12 tb"> How coronavirus is spread <i class="fa-solid fa-arrow-right"></i></p>
@@ -344,7 +344,7 @@
           </div>
           <div class="col-6">
             <div class="container">
-            <div class="self">
+              <div class="self">
               <p> <b>Self Care</b> </p>
               <p>If you have mild symptoms, stay at home until you've
                 recovered. You can relieve your symptoms if you:</p>
@@ -362,47 +362,41 @@
     </div>
   </div>
 
-  <div class="do1">
-    <div class="container">
+  <!-- Do & Don't Section -->
+
+  <div class="do" id="do">
+  <div class="container">
       <h4>DO'S & DON'T</h4>
       <h1>PROTECT YOURSELF</h1>
       <p>The beat thing you can do now is plan for how you can adapt your daily routine. Take few steps to protect yourself as clean your hands often, Avoid close contact, cover cough and sneezes, clean daily used surfaces etc.The beat way to prevent illness is to avoid being exposed to this virus. </p>
       <div class="row">
-        <div class="col-4" id="do">
+        <div class="col-3">
+          <span>Avoid Close Contact</span>
           <img class="dont" src="./imgs/donts-a.png" alt="">
           <i class="fa-solid fa-circle-xmark"></i>
-        </div>
-        <div class="col-4">
-          <img class="protect" src="./imgs/protect.png" alt="">
-        </div>
-        <div class="col-4">
-          <img class="dont2" src="./imgs/dos-a.png" alt="">
-          <i class="fa-solid fa-circle-check"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
+          <span>Don't Touch Face</span>
           <img class="dont" src="./imgs/donts-b.png" alt="">
           <i class="fa-solid fa-circle-xmark"></i>
-        </div>
-        <div class="col-4"></div>
-        <div class="col-4">
-          <img class="dont2" src="./imgs/dos-b.png" alt="">
-          <i class="fa-solid fa-circle-check"></i>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
+          <span>Social Distancing</span>
           <img class="dont" src="./imgs/donts-c.png" alt="">
           <i class="fa-solid fa-circle-xmark"></i>
         </div>
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-6">
+          <img class="protect" src="./imgs/protect.png" alt="">
+        </div>
+        <div class="col-3">
+          <img class="dont2" src="./imgs/dos-a.png" alt="">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Wash Your Hands</span>
+          <img class="dont2" src="./imgs/dos-b.png" alt="">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Drink Mush Water</span>
           <img class="dont2" src="./imgs/dos-c.png" alt="">
           <i class="fa-solid fa-circle-check"></i>
+          <span>Use Face Mask</span>
         </div>
-      </div>
     </div>
+  </div>
   </div>
 
   <!-- FAQ Section  -->
@@ -442,12 +436,13 @@
           </div>
         </div>
         <div class="content-box">
-          <div class="label">Why might someone blame or avoid individuals and groups?</div>
+          <div class="label">Why might someone blame or avoid  and groups?</div>
           <div class="content">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sed at cumque? Quasi placeat modi reprehenderit nulla unde vel repellat dolore. Quasi blanditiis magnam adipisci assumenda quam. Nesciunt, a nobis.</p>
           </div>
         </div>
       </div>
+    </div>
 
      
 
@@ -458,7 +453,9 @@
       <div class="recent2">
         <h4>RECENT FROM BLOG</h4>
         <h1>LATEST UPDATE</h1>
-        <div class="recent3">
+      </div>
+      <div class="recent3">
+
         <div class="row">
             <div class="col-4">
               <div class="card" style="width: 18rem;">
@@ -488,10 +485,10 @@
               </div>
             </div> 
           </div>
-          </div>
         </div>
       </div>
-    </div>
+  </div>
+
 
     <!-- News Section -->
 
@@ -554,6 +551,7 @@
   </div>
  </div> 
   
+
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
